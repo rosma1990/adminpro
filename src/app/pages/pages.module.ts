@@ -19,6 +19,7 @@ import { ChartsModule } from 'ng2-charts';
 // temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficodonaComponent } from '../components/graficodona/graficodona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { GraficodonaComponent } from '../components/graficodona/graficodona.comp
         Graficas1Component,
         ProgressComponent,
         IncrementadorComponent,
-        GraficodonaComponent
+        GraficodonaComponent,
+        AccountSettingsComponent
     ],
     exports: [  //exportar las paginas para que puedan ser usadas desde otros modulos
         PagesComponent,

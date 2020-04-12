@@ -11,6 +11,11 @@ import { pageModule } from './pages/pages.module';
 // Termporal
 import { FormsModule } from '@angular/forms';
 
+// servicios
+// import { SettingsService } from './services/service.index';
+import { ServiceModule } from './services/service.module';
+
+
 // import { ChartsModule } from 'ng2-charts';
 
 import { AppComponent } from './app.component';
@@ -34,7 +39,8 @@ import { RegisterComponent } from './login/register.component';
     BrowserModule,
     APP_ROUTES,
     pageModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
     // ,ChartsModule
   ],
   providers: [],
